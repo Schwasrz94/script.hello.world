@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.hello.world" name="Hello World" version="1.0.0" provider-name="zag">
+<addon id="script.temperature" name="Room Temperature" version="1.0.0" provider-name="durac">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -8,12 +8,10 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">Popup Hello World</summary>
-		<description lang="en">Example Script to show hello world</description>
+		<summary lang="en">Measures room temperature and humidity</summary>
+		<description lang="en">Measures room temperature and humidity with DHT11 on RaspberryPi GPIO 5</description>
 		<license>GNU General Public License, v2</license>
 		<language></language>
-		<forum>http://forum.kodi.tv/showthread.php?tid=209948</forum>
-		<source>https://github.com/zag2me/script.hello.world</source>
-		<email>zag@kodi.org</email>
+		<source>https://github.com/Schwasrz94/script.temperature</source>
 	</extension>
 </addon>
